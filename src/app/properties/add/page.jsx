@@ -3,4 +3,3 @@ const AddPropertyPage = () => {
 };
 
 export default AddPropertyPage;
-
