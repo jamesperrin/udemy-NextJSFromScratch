@@ -1,0 +1,40 @@
+https://github.com/bradtraversy/
+
+Property Pulse
+A web application to help you find your next rental property.
+
+This is the main project from my Next 14 From Scratch Course
+
+This is the second iteration of the app/course that uses server actions instead of API routes.
+
+The _theme_files folder contains the pure HTML files with Tailwind classes.
+GitHub: https://github.com/bradtraversy/property-pulse-nextjs
+
+Demo: https://property-pulse-nextjs-nine.vercel.app/
+
+Real estate website built with Next.js and MongoDB
+
+property-pulse-nextjs-nine.vercel.app
+
+npx create-next-app@latest property-plus-nextjs
+npx create-next-app@latest property-plus-nextjs_ts
+
+For adding ICONS like Font Awesome
+npm i react-icons
+
+
+For adding a spinner to React projects
+
+npm i react-spinners
+
+Create MongoDB Atlas Cluster
+
+database: propertypulse
+collection: properties
+
+Run the following on the command line
+npm install mongodb
+
+
+
+
