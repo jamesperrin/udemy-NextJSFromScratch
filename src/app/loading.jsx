@@ -1,12 +1,6 @@
 'use-client';
 
-import ClipLoader from 'react-spinners/ClipLoader';
 import ScaleLoader from 'react-spinners/ScaleLoader';
-
-const overrideClipLoader = {
-  display: 'block',
-  margin: '100px auto',
-};
 
 const overrideScaleLoader = {
   display: 'flex',
@@ -24,19 +18,15 @@ const overrideScaleLoader = {
 
 const LoadingPage = () => {
   return (
-    <>
-      <ClipLoader color="#DC143C" cssOverride={overrideClipLoader} size={150} area-label="Loading Spinner" />
-
-      <ScaleLoader
-        barCount={6}
-        color="#3b82f6"
-        height={80}
-        width={6}
-        radius={10}
-        cssOverride={overrideScaleLoader}
-        area-label="Loading Spinner"
-      />
-    </>
+    <ScaleLoader
+      barCount={6}
+      color="#3b82f6"
+      height={60}
+      width={6}
+      radius={10}
+      cssOverride={overrideScaleLoader}
+      area-label="Loading Spinner"
+    />
   );
 };
 

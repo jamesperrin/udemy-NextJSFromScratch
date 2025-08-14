@@ -29,8 +29,7 @@ npm i react-spinners
 
 Create MongoDB Atlas Cluster
 
-database: propertypulse
-collection: properties
+  database: propertypulse
+  collection: properties
 
-Run the following on the command line
 npm i mongodb mongoose
