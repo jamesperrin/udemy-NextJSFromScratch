@@ -33,4 +33,4 @@ database: propertypulse
 collection: properties
 
 Run the following on the command line
-npm install mongodb 
+npm i mongodb mongoose
