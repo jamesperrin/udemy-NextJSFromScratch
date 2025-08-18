@@ -1,21 +1,20 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { FaBed, FaBath, FaRulerCombined, FaMoneyBill, FaMapMarker } from 'react-icons/fa';
+import Formatter from '@/utils/Formatter';
 
 const PropertyCard = ({ property }) => {
   const squareFeet = new Intl.NumberFormat().format(property.square_feet);
 
   const getRateDisplay = () => {
     const { rates } = property;
-    const formatMoney = (rate) =>
-      new Intl.NumberFormat('en-US', { minimumFractionDigits: 0, style: 'currency', currency: 'USD' }).format(rate);
 
     if (rates.monthly) {
-      return `${formatMoney(rates.monthly)}/mo`;
+      return `${Formatter.formatMoney(rates.monthly)}/mo`;
     } else if (rates.weekly) {
-      return `${formatMoney(rates.weekly)}/wk`;
+      return `${Formatter.formatMoney(rates.weekly)}/wk`;
     } else if (rates.nightly) {
-      return `${formatMoney(rates.nightly)}/night`;
+      return `${Formatter.formatMoney(rates.nightly)}/night`;
     }
   };
 

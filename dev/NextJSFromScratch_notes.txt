@@ -27,6 +27,16 @@ For adding a spinner to React projects
 
 npm i react-spinners
 
+Stop MongoDB.
+  As needed, you can stop the mongod process by issuing the following command:
+  LINUX: sudo service mongod stop
+  WINDOWS: net stop MongoDB
+
+Restart MongoDB.
+  Issue the following command to restart mongod:
+  LINUX: sudo service mongod restart
+  WINDOWS: net start MongoDB
+
 Create MongoDB Atlas Cluster
 
   database: propertypulse
