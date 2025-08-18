@@ -43,3 +43,9 @@ Create MongoDB Atlas Cluster
   collection: properties
 
 npm i mongodb mongoose
+
+How to Configure Microsoft Entra ID as a Login Provider in Your Next.js App
+https://hackernoon.com/how-to-configure-microsoft-entra-id-as-a-login-provider-in-your-nextjs-app
+
+Authentication App with Next.js and Microsoft Graph
+https://microsoft.github.io/MicrosoftCloud/tutorials/docs/Authentication-App-With-NextJs-And-Microsoft-Graph/
