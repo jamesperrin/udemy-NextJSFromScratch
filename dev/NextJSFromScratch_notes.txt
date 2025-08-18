@@ -44,8 +44,41 @@ Create MongoDB Atlas Cluster
 
 npm i mongodb mongoose
 
-How to Configure Microsoft Entra ID as a Login Provider in Your Next.js App
-https://hackernoon.com/how-to-configure-microsoft-entra-id-as-a-login-provider-in-your-nextjs-app
 
-Authentication App with Next.js and Microsoft Graph
-https://microsoft.github.io/MicrosoftCloud/tutorials/docs/Authentication-App-With-NextJs-And-Microsoft-Graph/
+How Next Auth Works https://next-auth.js.org/getting-started/introduction
+
+1. Serverless Function for Authentication.
+2. Create a Session.
+3. Store Session.
+4. Verify Session.
+5. Access Protect Routes.
+
+Next Auth Providers Overview https://next-auth.js.org/providers/
+Authentication Providers in NextAuth.js are services that can be used to sign in a user.
+
+https://next-auth.js.org/providers/auth0
+https://next-auth.js.org/providers/azure-ad
+
+  How to Configure Microsoft Entra ID as a Login Provider in Your Next.js App
+  https://hackernoon.com/how-to-configure-microsoft-entra-id-as-a-login-provider-in-your-nextjs-app
+
+  Authentication App with Next.js and Microsoft Graph
+  https://microsoft.github.io/MicrosoftCloud/tutorials/docs/Authentication-App-With-NextJs-And-Microsoft-Graph/
+
+https://next-auth.js.org/providers/azure-ad-b2c
+https://next-auth.js.org/providers/email
+https://next-auth.js.org/providers/github
+https://next-auth.js.org/providers/google
+https://next-auth.js.org/providers/identity-server4
+https://next-auth.js.org/providers/linkedin
+https://next-auth.js.org/providers/okta
+https://next-auth.js.org/providers/wordpress
+
+
+Next Auth Adapters Overview https://next-auth.js.org/adapters
+
+Adapters
+Visit the authjs.dev page for the up-to-date documentation.
+
+Database Adapters
+https://authjs.dev/getting-started/database
