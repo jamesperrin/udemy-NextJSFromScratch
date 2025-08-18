@@ -105,13 +105,12 @@ Get started
   Finish
     Agree to terms
 
-Creaet OAuth client ID
-
-
-npm install next-auth
+Create OAuth client ID
 
 Next Auth Secret https://next-auth.js.org/configuration/options#secret
 
 You can quickly create a good value on the command line via this openssl command.
 
 $ openssl rand -base64 32
+
+npm install next-auth
