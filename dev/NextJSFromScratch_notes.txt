@@ -114,3 +114,4 @@ You can quickly create a good value on the command line via this openssl command
 $ openssl rand -base64 32
 
 npm install next-auth
+
