@@ -20,8 +20,6 @@ export const authOptions = {
   callbacks: {
     // Invoked on successful signin
     async signIn({ profile }) {
-      console.log(`-- PROFILE \n\n${profile}`);
-
       // 1. Connect to database
       await connectDB();
 
@@ -45,15 +43,11 @@ export const authOptions = {
     },
     // Modifies the session object
     async session({ session }) {
-      console.log(`-- SESSION -- 1\n\n${session}`);
-
       // 1. Get user from database
       const user = await User.findOne({ email: session.user.email });
 
       // 2. Assign the user id to the session
       session.user.id = user._id.toString();
-
-      console.log(`-- SESSION -- 2\n\n${session}`);
 
       // 3. return session
       return session;
