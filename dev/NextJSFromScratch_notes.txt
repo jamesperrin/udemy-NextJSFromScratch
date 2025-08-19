@@ -115,3 +115,11 @@ $ openssl rand -base64 32
 
 npm install next-auth
 
+Server Actions
+
+What are Server Functions?
+A Server Function is an asynchronous function that runs on the server. They can be called from client through a network request, which is why they must be asynchronous.
+https://nextjs.org/docs/app/getting-started/updating-data
+
+Nextjs 15 — Actions Best Practice
+https://medium.com/@lior_amsalem/nextjs-15-actions-best-practice-bf5cc023301e
