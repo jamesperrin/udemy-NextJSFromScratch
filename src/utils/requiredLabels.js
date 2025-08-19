@@ -1,4 +1,19 @@
-// src/utils/requiredLabels.js
+/*
+To use, add the following code to a client component.
+
+  import { handleRequiredLabels } from '@/utils/requiredLabels';
+
+  const FormComponent = () => {
+
+    useEffect(() => {
+      handleRequiredLabels();
+    }, []);
+
+    return (<form> </form>);
+  }
+
+*/
+
 export function handleRequiredLabels() {
   const App = {};
 

@@ -1,12 +1,10 @@
 'use client';
 
-import { useEffect } from 'react';
-import { handleRequiredLabels } from '@/utils/requiredLabels';
+import { useRequiredFields } from '@/hooks/useRequiredFields';
 
 const PropertyAddForm = () => {
-  useEffect(() => {
-    handleRequiredLabels();
-  }, []);
+
+  useRequiredFields();
 
   return (
     <form action={'addProperty'}>
