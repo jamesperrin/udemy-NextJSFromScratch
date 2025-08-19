@@ -9,4 +9,17 @@ Next.js New Tailwindcss v3
  Next.js New Tailwindcss v4
  See: https://tailwindcss.com/docs/installation/framework-guides/nextjs
  */
-@import 'tailwindcss';
+@import "tailwindcss";
+
+/*-----------------------------------------------------------
+    JS required label validaiton styling
+    Overriding reboot.scss
+-----------------------------------------------------------*/
+abbr[title="required"] {
+  margin-left: 5px;
+  font-size: 1.25em;
+  color: red;
+  text-decoration: none;
+  cursor: unset;
+  border-bottom: 0;
+}
