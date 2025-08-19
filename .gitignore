@@ -964,8 +964,21 @@ FodyWeavers.xsd
 #====================================================================
 ### CUSTOM ###
 
+# Packages #
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
 ## Overrides
 
+!_course_resources/**/*.zip
 
 ## Folders
 [Ff]ortify*/
@@ -981,25 +994,12 @@ FodyWeavers.xsd
 [Ff]ortify*
 *.fpr
 
-### END - VHA CUSTOM ###
-
 # Logs #
 /log/*
 !/log/.keep
 /logfile
 /tmp
 
-# Packages #
-# it's better to unpack these files and commit the raw source
-# git has its own built in compression methods
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
 
 # END CUSTOM SETTINGS
 #====================================================================
