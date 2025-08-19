@@ -48,6 +48,8 @@ export const authOptions = {
 
       // 2. Assign the user id to the session
       session.user.id = user._id.toString();
+      session.user.username = user.username.toString();
+
 
       // 3. return session
       return session;

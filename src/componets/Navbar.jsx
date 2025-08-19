@@ -13,6 +13,7 @@ import { usePathname } from 'next/navigation';
 const Navbar = () => {
   const { data: session } = useSession();
   const profileImage = session?.user?.image;
+  const profileImageAlt = session?.user?.username;
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isProfileMenuOpen, setIsProfileMenuOpen] = useState(false);
@@ -168,7 +169,7 @@ const Navbar = () => {
                     <Image
                       className="h-8 w-8 rounded-full"
                       src={profileImage || profileDefault}
-                      alt=""
+                      alt={`${profileImageAlt || 'Profile'} image`}
                       width={40}
                       height={40}
                     />
@@ -204,7 +205,11 @@ const Navbar = () => {
                       className="block px-4 py-2 text-sm text-gray-700"
                       role="menuitem"
                       tabIndex="-1"
-                      id="user-menu-item-2">
+                      id="user-menu-item-2"
+                      onClick={() => {
+                        setIsProfileMenuOpen(false);
+                        signOut();
+                      }}>
                       Sign Out
                     </button>
                   </div>
