@@ -1,4 +1,5 @@
 'use client';
+import addProperty from '@/actions/addProperty';
 
 import { useRequiredFields } from '@/hooks/useRequiredFields';
 
@@ -6,7 +7,7 @@ const PropertyAddForm = () => {
   useRequiredFields();
 
   return (
-    <form action={'addProperty'}>
+    <form action={addProperty}>
       <h2 className="text-3xl text-center font-semibold mb-6">Add Property</h2>
 
       <div className="mb-4">
