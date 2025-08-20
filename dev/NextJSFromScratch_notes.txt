@@ -128,3 +128,6 @@ https://medium.com/@lior_amsalem/nextjs-15-actions-best-practice-bf5cc023301e
 Cloudinary
 
 npm i cloudinary
+
+
+npm i react-photoswipe-gallery

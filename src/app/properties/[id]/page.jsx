@@ -4,6 +4,7 @@ import connectDB from '@/config/database';
 import Property from '@/models/Property';
 import Link from 'next/link';
 import { FaArrowLeft } from 'react-icons/fa';
+import PropertyImages from '@/componets/PropertyImages';
 
 const PropertyPage = async ({ params }) => {
   // Dynamic APIs are Asynchronous
@@ -34,6 +35,7 @@ const PropertyPage = async ({ params }) => {
           </div>
         </div>
       </section>
+      <PropertyImages images={property.images} />
     </>
   );
 };
