@@ -123,3 +123,8 @@ https://nextjs.org/docs/app/getting-started/updating-data
 
 Nextjs 15 — Actions Best Practice
 https://medium.com/@lior_amsalem/nextjs-15-actions-best-practice-bf5cc023301e
+
+
+Cloudinary
+
+npm i cloudinary
