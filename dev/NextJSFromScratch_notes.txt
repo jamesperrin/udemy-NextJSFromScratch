@@ -136,3 +136,9 @@ npm i react-photoswipe-gallery
 Toastr
 
 npm i react-toastify
+
+
+react-geocode - A React module to transform a description of a location (i.e. street address, town name, etc.) into geographic coordinates (i.e. latitude and longitude) and vice versa.
+mapbox-gl - Interactive, thoroughly customizable maps in the browser, powered by vector tiles and WebGL
+react-map-gl - React friendly API wrapper around MapboxGL JS
+npm i react-geocode mapbox-gl react-map-gl
