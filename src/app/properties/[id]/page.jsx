@@ -5,6 +5,7 @@ import Property from '@/models/Property';
 import Link from 'next/link';
 import { FaArrowLeft } from 'react-icons/fa';
 import PropertyImages from '@/componets/PropertyImages';
+import { convertToSerializeableObject } from '@/utils/convertToObject';
 
 const PropertyPage = async ({ params }) => {
   // Dynamic APIs are Asynchronous
@@ -12,7 +13,13 @@ const PropertyPage = async ({ params }) => {
   const { id } = await params;
 
   await connectDB();
-  const property = await Property.findById(id).lean();
+  // const property = await Property.findById(id).lean();
+  const propertyDoc = await Property.findById(id).lean();
+  const property = convertToSerializeableObject(propertyDoc);
+
+  if (!property) {
+    return <h1 className="text-center text-2xl font-bold mt-10">Property Not Found</h1>;
+  }
 
   return (
     <>
