@@ -1,6 +1,6 @@
 import { FaTimes, FaBed, FaBath, FaRulerCombined, FaCheck, FaMapMarker } from 'react-icons/fa';
 import Formatter from '@/utils/Formatter';
-import PropertyMap from '@/componets/PropertyMap';
+import PropertyMap from '@/components/PropertyMap';
 
 const PropertyDetails = ({ property }) => {
   return (

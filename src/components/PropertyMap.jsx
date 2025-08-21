@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import { setDefaults, fromAddress } from 'react-geocode';
-import Spinner from '@/componets/Spinner';
+import Spinner from '@/components/Spinner';
 import Map, { Marker } from 'react-map-gl/mapbox';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import pin from '@/assets/images/pin.svg';
