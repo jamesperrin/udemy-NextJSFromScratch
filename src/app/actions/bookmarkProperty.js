@@ -19,7 +19,7 @@ async function bookmarkProperty(propertyId) {
   // Find user in database
   const user = await User.findById(userId);
 
-  if (!user) {
+  if (!user || !user._id) {
     return { error: 'User ID is required' };
   }
 
