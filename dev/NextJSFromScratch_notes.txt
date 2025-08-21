@@ -131,3 +131,8 @@ npm i cloudinary
 
 
 npm i react-photoswipe-gallery
+
+
+Toastr
+
+npm i react-toastify
