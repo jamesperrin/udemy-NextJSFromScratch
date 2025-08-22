@@ -19,8 +19,7 @@ const PropertySearchForm = () => {
       const query = new URLSearchParams(param);
       // const query = `?location=${location}&propertyType=${propertyType}`;
 
-      // router.push(`/properties/search-results?${query}`);
-      router.push('/properties');
+      router.push(`/properties/search-results?${query}`);
     }
   };
 
