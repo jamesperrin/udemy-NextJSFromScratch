@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "68a4814af32f658520eb5ca2"
+  },
+  "email": "countrydawgg@gmail.com",
+  "username": "James Perrin",
+  "image": "https://lh3.googleusercontent.com/a/ACg8ocLvCLfv7FRThoVDscZ9FwAo-VshdRfYZ42B7SaJltArQICVewA=s96-c",
+  "createdAt": {
+    "$date": "2025-08-19T13:51:06.134Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-21T21:07:10.765Z"
+  },
+  "__v": 20,
+  "bookmarks": []
+}]

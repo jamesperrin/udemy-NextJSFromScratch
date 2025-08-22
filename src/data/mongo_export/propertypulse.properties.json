@@ -1,0 +1,271 @@
+[{
+  "_id": {
+    "$oid": "68a5dbfd58683b7f7ff57a01"
+  },
+  "owner": {
+    "$oid": "68a4814af32f658520eb5ca2"
+  },
+  "name": "Boston Commons Retreat",
+  "type": "Apartment",
+  "description": "This is a beautiful apartment located near the commons. It is a 2 bedroom apartment with a full kitchen and bathroom. It is available for weekly or monthly rentals.",
+  "location": {
+    "street": "120 Tremont Street",
+    "city": "Boston",
+    "state": "MA",
+    "zipcode": "02108"
+  },
+  "beds": 2,
+  "baths": 1,
+  "square_feet": 1500,
+  "amenities": [
+    "Wifi",
+    "Full kitchen",
+    "Washer & Dryer",
+    "Free Parking",
+    "24/7 Security",
+    "Wheelchair Accessible",
+    "Elevator Access",
+    "Dishwasher",
+    "Gym/Fitness Center",
+    "Air Conditioning",
+    "Balcony/Patio"
+  ],
+  "rates": {
+    "weekly": 1100,
+    "monthly": 4200,
+    "nightly": null
+  },
+  "seller_info": {
+    "name": null,
+    "email": "john@gmail.com",
+    "phone": "617-555-5555"
+  },
+  "images": [
+    "https://res.cloudinary.com/dpeunpik7/image/upload/v1755700221/propertypulse/wbp3uwcl5nmupyqvfxmx.jpg",
+    "https://res.cloudinary.com/dpeunpik7/image/upload/v1755700222/propertypulse/dg3dkpvcwfxdj4vsi5wg.jpg",
+    "https://res.cloudinary.com/dpeunpik7/image/upload/v1755700223/propertypulse/rypu0lwvz1bteyvwe08d.jpg"
+  ],
+  "is_featured": false,
+  "createdAt": {
+    "$date": "2025-08-20T14:30:22.025Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-21T17:48:33.328Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a5dc5d58683b7f7ff57a05"
+  },
+  "owner": {
+    "$oid": "68a4814af32f658520eb5ca2"
+  },
+  "name": "Cozy Downtown Loft",
+  "type": "Apartment",
+  "description": "A cozy downtown loft with great city views.",
+  "location": {
+    "street": "45 Main Street",
+    "city": "New York",
+    "state": "NY",
+    "zipcode": "10001"
+  },
+  "beds": 1,
+  "baths": 1,
+  "square_feet": 1800,
+  "amenities": [
+    "Wifi",
+    "Full kitchen",
+    "Washer & Dryer",
+    "Free Parking",
+    "Hot Tub",
+    "24/7 Security",
+    "Wheelchair Accessible",
+    "Elevator Access",
+    "Dishwasher"
+  ],
+  "rates": {
+    "nightly": null,
+    "weekly": 1000,
+    "monthly": 4000
+  },
+  "seller_info": {
+    "name": "Jane Smith",
+    "email": "jane@gmail.com",
+    "phone": "212-555-5555"
+  },
+  "images": [
+    "https://res.cloudinary.com/dpeunpik7/image/upload/v1755700316/propertypulse/wfzhvfmsrsopb59wcazl.jpg",
+    "https://res.cloudinary.com/dpeunpik7/image/upload/v1755700317/propertypulse/sipqmp5oovxlaprldca2.jpg",
+    "https://res.cloudinary.com/dpeunpik7/image/upload/v1755700318/propertypulse/in6corjywqgii2g6suvh.jpg"
+  ],
+  "is_featured": false,
+  "createdAt": {
+    "$date": "2025-08-20T14:31:57.611Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-20T14:31:57.611Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a5dcba58683b7f7ff57a0b"
+  },
+  "owner": {
+    "$oid": "68a4814af32f658520eb5ca2"
+  },
+  "name": "Luxury Condo with a View",
+  "type": "Condo",
+  "description": "Experience luxury in this stunning condo with breathtaking views.",
+  "location": {
+    "street": "500 Lux Lane",
+    "city": "Los Angeles",
+    "state": "CA",
+    "zipcode": "90001"
+  },
+  "beds": 3,
+  "baths": 2,
+  "square_feet": 2200,
+  "amenities": [
+    "Wifi",
+    "Full kitchen",
+    "Washer & Dryer",
+    "Free Parking",
+    "Hot Tub",
+    "24/7 Security",
+    "Wheelchair Accessible",
+    "Elevator Access",
+    "Dishwasher",
+    "Gym/Fitness Center",
+    "Air Conditioning",
+    "Smart TV",
+    "Coffee Maker"
+  ],
+  "rates": {
+    "nightly": null,
+    "weekly": 750,
+    "monthly": 3300
+  },
+  "seller_info": {
+    "name": "David Johnson",
+    "email": "david@gmail.com",
+    "phone": "213-555-5555"
+  },
+  "images": [
+    "https://res.cloudinary.com/dpeunpik7/image/upload/v1755700410/propertypulse/vlozsvzzqmvjr7vdbeuy.jpg",
+    "https://res.cloudinary.com/dpeunpik7/image/upload/v1755700411/propertypulse/mahmwzcmljmykj69e0dx.jpg",
+    "https://res.cloudinary.com/dpeunpik7/image/upload/v1755700411/propertypulse/at2r8apltwgpuc8hag8y.jpg"
+  ],
+  "is_featured": false,
+  "createdAt": {
+    "$date": "2025-08-20T14:33:30.960Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-20T14:33:30.960Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a5dd0658683b7f7ff57a0f"
+  },
+  "owner": {
+    "$oid": "68a4814af32f658520eb5ca2"
+  },
+  "name": "Charming Cottage Getaway",
+  "type": "CabinOrCottage",
+  "description": "Escape to this charming cottage for a peaceful retreat.",
+  "location": {
+    "street": "123 Countryside Lane",
+    "city": "Austin",
+    "state": "TX",
+    "zipcode": "78701"
+  },
+  "beds": 1,
+  "baths": 1,
+  "square_feet": 900,
+  "amenities": [
+    "Wifi",
+    "Full kitchen",
+    "Washer & Dryer",
+    "Free Parking",
+    "Hot Tub",
+    "Dishwasher",
+    "Gym/Fitness Center",
+    "Smart TV"
+  ],
+  "rates": {
+    "nightly": null,
+    "weekly": 2000,
+    "monthly": null
+  },
+  "seller_info": {
+    "name": "Emily Davis",
+    "email": "emily@gmail.com",
+    "phone": "512-555-5555"
+  },
+  "images": [
+    "https://res.cloudinary.com/dpeunpik7/image/upload/v1755700485/propertypulse/hrfudvknrgvdy4zqv1kq.jpg",
+    "https://res.cloudinary.com/dpeunpik7/image/upload/v1755700486/propertypulse/aid59pgnwfg81tuiogtx.jpg",
+    "https://res.cloudinary.com/dpeunpik7/image/upload/v1755700487/propertypulse/cjh47rfb02bsk7zxjcpp.jpg"
+  ],
+  "is_featured": false,
+  "createdAt": {
+    "$date": "2025-08-20T14:34:46.318Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-20T14:34:46.318Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a5dd4b58683b7f7ff57a13"
+  },
+  "owner": {
+    "$oid": "68a4814af32f658520eb5ca2"
+  },
+  "name": "Modern Downtown Studio",
+  "type": "Studio",
+  "description": "Stay in style in this modern downtown studio apartment.",
+  "location": {
+    "street": "75 Urban Avenue",
+    "city": "Chicago",
+    "state": "IL",
+    "zipcode": "60601"
+  },
+  "beds": 1,
+  "baths": 1,
+  "square_feet": 900,
+  "amenities": [
+    "Full kitchen",
+    "Free Parking",
+    "Swimming Pool",
+    "24/7 Security",
+    "Smart TV"
+  ],
+  "rates": {
+    "nightly": null,
+    "weekly": 1100,
+    "monthly": 4200
+  },
+  "seller_info": {
+    "name": "Michael Brown",
+    "email": "michael@gmail.com",
+    "phone": "312-555-5555"
+  },
+  "images": [
+    "https://res.cloudinary.com/dpeunpik7/image/upload/v1755700554/propertypulse/wzbvinios06otnte2ofs.jpg",
+    "https://res.cloudinary.com/dpeunpik7/image/upload/v1755700555/propertypulse/chhqj3bbbjrjkavxvwkk.jpg",
+    "https://res.cloudinary.com/dpeunpik7/image/upload/v1755700556/propertypulse/lrf1ghkk8ymj2vhyhsop.jpg"
+  ],
+  "is_featured": false,
+  "createdAt": {
+    "$date": "2025-08-20T14:35:55.258Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-20T14:35:55.258Z"
+  },
+  "__v": 0
+}]
