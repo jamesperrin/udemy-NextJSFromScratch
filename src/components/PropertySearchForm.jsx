@@ -15,9 +15,8 @@ const PropertySearchForm = () => {
     if (location === '' && propertyType === 'All') {
       router.push('/properties');
     } else {
-      const param = { location, propertyType };
-      const query = new URLSearchParams(param);
       // const query = `?location=${location}&propertyType=${propertyType}`;
+      const query = new URLSearchParams({ location, propertyType });
 
       router.push(`/properties/search-results?${query}`);
     }
