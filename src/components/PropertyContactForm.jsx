@@ -1,23 +1,23 @@
 'use client';
+
 /*
   IF React 18
   import { useEffect} from 'react';
-  import { useFormState, useFormStatus } from 'react-dom';
+  import { useFormState } from 'react-dom';
 
   IF React 19
   import { useEffect, useActionState } from 'react';
-  import { useFormStatus } from 'react-dom';
 
 */
 import { useEffect, useActionState } from 'react';
-import { useFormStatus } from 'react-dom';
 import { useSession } from 'next-auth/react';
 import { toast } from 'react-toastify';
-import { FaPaperPlane } from 'react-icons/fa';
 import addMessage from '@/app/actions/addMessage';
+import SubmitMessageButton from './SubmitMessageButton';
 
 const PropertyContactForm = ({ property }) => {
-  const session = useSession();
+  const { data: session } = useSession();
+
   const [state, formAction] = useActionState(addMessage, {});
 
   useEffect(() => {
@@ -53,6 +53,7 @@ const PropertyContactForm = ({ property }) => {
                 name="name"
                 type="text"
                 placeholder="Enter your name"
+                defaultValue={session?.user?.name || ''}
                 required
               />
             </div>
@@ -66,6 +67,7 @@ const PropertyContactForm = ({ property }) => {
                 name="email"
                 type="email"
                 placeholder="Enter your email"
+                defaultValue={session?.user?.email || ''}
                 required
               />
             </div>
@@ -89,14 +91,11 @@ const PropertyContactForm = ({ property }) => {
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 h-44 focus:outline-none focus:shadow-outline"
                 id="message"
                 name="message"
-                placeholder="Enter your message"></textarea>
+                placeholder="Enter your message"
+                defaultValue={`I am interested in ${property.name}.`}></textarea>
             </div>
             <div>
-              <button
-                className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline flex items-center justify-center"
-                type="submit">
-                <i className="fas fa-paper-plane mr-2"></i> Send Message
-              </button>
+              <SubmitMessageButton />
             </div>
           </form>
         </div>
