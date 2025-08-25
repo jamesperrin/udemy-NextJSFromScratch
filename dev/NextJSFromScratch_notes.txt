@@ -146,3 +146,6 @@ npm i react-geocode mapbox-gl react-map-gl
 
 react-share - Social media share buttons and share counts for React
 npm i react-share
+
+
+npm i photoswipe react-photoswipe-gallery
