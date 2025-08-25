@@ -149,3 +149,23 @@ npm i react-share
 
 
 npm i photoswipe react-photoswipe-gallery
+
+
+Vercel Deploy
+
+After initial deployment, you need to update the following.
+
+1. Update environment variables for NEXT_PUBLIC_DOMAIN, NEXT_PUBLIC_API_DOMAIN, NEXTAUTH_UR, and NEXTAUTH_URL_INTERNAL.
+2. Update Google Console project
+
+  2a. Navigate to project PropertyPulseNextJS
+  2b. Select APIs & Services
+  2c. Select Credentials.
+  2d. Select OAuth 2.0 Client IDs for project PropertyPulseApp
+  2e. Update Authorized JavaScript origins:
+    http://localhost:3000
+    https://udemy-next-js-from-scratch-jkp.vercel.app
+  2f. Update Authorized redirect URIs:
+    http://localhost:3000/api/auth/callback/google
+    https://udemy-next-js-from-scratch-jkp.vercel.app/api/auth/callback/google
+  2g. Click Save
