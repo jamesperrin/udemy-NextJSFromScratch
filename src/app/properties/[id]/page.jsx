@@ -41,8 +41,8 @@ const PropertyPage = async ({ params }) => {
 
             {/* <!-- Sidebar --> */}
             <aside className="space-y-4">
-              <BookmarkButton property={property} />
               <ShareButtons property={property} />
+              <BookmarkButton property={property} />
               <PropertyContactForm property={property} />
             </aside>
           </div>

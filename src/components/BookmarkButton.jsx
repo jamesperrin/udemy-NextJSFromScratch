@@ -46,6 +46,10 @@ const BookmarkButton = ({ property }) => {
     });
   };
 
+  if (!session) {
+    return;
+  }
+
   if (loading) {
     return <p className="text-center">Loading...</p>;
   }
