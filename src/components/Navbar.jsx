@@ -7,7 +7,7 @@ import profileDefault from '@/assets/images/profile.png';
 import { FaGoogle } from 'react-icons/fa';
 import { signIn, signOut, useSession, getProviders } from 'next-auth/react';
 
-import { use, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
 
 import UnreadMessageCount from './UnreadMessageCount';
