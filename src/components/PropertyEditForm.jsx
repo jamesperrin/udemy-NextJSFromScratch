@@ -382,7 +382,7 @@ const PropertyEditForm = ({ property }) => {
       </div>
       <div className="flex mb-4">
         <button
-          className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full w-1/2 focus:outline-none focus:shadow-outline"
+          className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full w-1/2 focus:outline-none focus:shadow-outline"
           type="submit">
           Update Property
         </button>
