@@ -36,14 +36,16 @@ const PropertyCard = ({ property }) => {
   return (
     // <!-- Listing 1 -->
     <div className="rounded-xl shadow-md relative">
-      <Image
-        src={property.images[0]}
-        width="0"
-        height="0"
-        sizes="100vw"
-        alt={`View ${property.name}`}
-        className="w-full h-auto rounded-t-xl"
-      />
+      <Link href={`/properties/${property._id}`} title={`View ${property.name} property`}>
+        <Image
+          src={property.images[0]}
+          width="0"
+          height="0"
+          sizes="100vw"
+          alt={`View ${property.name}`}
+          className="w-full h-auto rounded-t-xl"
+        />
+      </Link>
       <div className="p-4">
         <div className="text-left md:text-center lg:text-left mb-6">
           <div className="text-gray-600">{property.type}</div>
@@ -85,7 +87,8 @@ const PropertyCard = ({ property }) => {
           </div>
           <Link
             href={`/properties/${property._id}`}
-            className="h-[36px] bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg text-center text-sm">
+            className="h-[36px] bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg text-center text-sm"
+            title={`View ${property.name} property`}>
             Details
           </Link>
         </div>

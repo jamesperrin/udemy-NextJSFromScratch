@@ -2,9 +2,19 @@ import PropertyCard from '@/components/PropertyCard';
 import connectDB from '@/config/database';
 import Property from '@/models/Property';
 
-const PropertiesPage = async () => {
+const PropertiesPage = async ({ searchParams }) => {
+  // Dynamic APIs are Asynchronous
+  // See: https://nextjs.org/docs/messages/sync-dynamic-apis
+  let { page } = await searchParams;
+  page = parseInt(page) || 1;
+  page = page > 0 ? page : 1;
+
+  const pageSize = 2;
+
   await connectDB();
-  const properties = await Property.find({}).lean();
+  const skip = (page - 1) * pageSize;
+  const totalProperties = await Property.countDocuments({});
+  const properties = await Property.find({}).skip(skip).limit(pageSize).lean();
 
   return (
     <section className="px-4 py-6">
