@@ -10,8 +10,6 @@ import ShareButtons from '@/components/ShareButtons';
 import PropertyContactForm from '@/components/PropertyContactForm';
 import { convertToSerializeableObject } from '@/utils/convertToObject';
 
-import { getSessionUser } from '@/utils/getSessionUser';
-
 const PropertyPage = async ({ params }) => {
   // Dynamic APIs are Asynchronous
   // See: https://nextjs.org/docs/messages/sync-dynamic-apis
