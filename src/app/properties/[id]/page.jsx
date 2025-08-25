@@ -8,6 +8,7 @@ import PropertyImages from '@/components/PropertyImages';
 import BookmarkButton from '@/components/BookmarkButton';
 import ShareButtons from '@/components/ShareButtons';
 import PropertyContactForm from '@/components/PropertyContactForm';
+import PropertyEditButton from '@/components/PropertyEditButton';
 import { convertToSerializeableObject } from '@/utils/convertToObject';
 
 const PropertyPage = async ({ params }) => {
@@ -41,8 +42,9 @@ const PropertyPage = async ({ params }) => {
 
             {/* <!-- Sidebar --> */}
             <aside className="space-y-4">
-              <ShareButtons property={property} />
+              <PropertyEditButton property={property} />
               <BookmarkButton property={property} />
+              <ShareButtons property={property} />
               <PropertyContactForm property={property} />
             </aside>
           </div>
